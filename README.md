@@ -1,33 +1,37 @@
 CLASS GENERATOR
 ===============
 
-Vous avez besoin d'un moyen de créer rapidement un squellette de classe C++?
-ClassGenerator permet ceci rapidement !
+You need a script to create quickly new classes in C++, Java...etc?
+classGenerator is designed for you !
 
-	1- Installation
-	---------------
-		Créer un dossier .bin/ dans ~/
-		et copier les fichiers classGenerator et le dossier Ressources dedans
-		Ajouter le dossier .bin à votre $PATH
-		Vous pouvez aussi créer un alias dans votre fichier .bashrc
-			ajoutez >alias cg='classGenerator'
-			
-	2- Utilisation
-	--------------
-		Entrez la commande cg <className> pour générer un fichier cpp et un h correspondant
-		
-	3- Amélioration
-	---------------
-		Dans le dossier Ressources se trouvent les fichiers d'architecture de classe.
-		Vous pouvez éventuellement les modifier pour les adapter à vos envies !
-		Caractères spéciaux:
-			- $: le nom de la classe tel que vous l'avez utilisé dans votre commande
-			- ?: le nom de la classe écrit en majuscules
-			
-	4- Perspectives
-	---------------
-		J'ajouterais peut-être dans le futur un apport pour d'autres langages.
-		
-	5- Contact
+	1- Install
 	----------
+		The script and the Ressources directory should be copied in the ~/.bin directory
+		And the ~/.bin directory should be added to the $PATH
+		Finally, you can create an alias in the bashrc file:
+			>alias <commande>='classGenerator.sh'
+			
+	2- Use
+	------
+		classGenerator <className> <language>
+		It will generate the header and source corresponding
+		
+	3- Improvement
+	--------------
+		You can add new languages to this script by adding a new directory in "./Ressources"
+		You probably need to personnalize architecture files too.
+		You also need to add another line in the script to add extensions (for source file)
+		
+		String reserved in architecture files:
+			- "className"
+			- "DATE"
+			- "CLASS_NAME"
+			
+	4- Working on
+	-------------
+		Adding new languages in the Ressources directory.
+		
+		
+	5- Problem/Remarks
+	------------------
 		Ubu: ubald2b@gmail.com
