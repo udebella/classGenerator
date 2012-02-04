@@ -14,12 +14,12 @@ And the ~/.bin directory should be added to the $PATH
 
 Finally, you can create an alias in the bashrc file:
 
-	>alias `<commande>`='classGenerator.sh'
+	>alias <commande>='classGenerator.sh'
 			
 2- Use
 ------
 
-classGenerator `<className> <language>`
+	classGenerator <className> <language>
 
 It will generate the header and source corresponding
 	
