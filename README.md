@@ -26,6 +26,7 @@ You probably need to personnalize architecture files too.
 You also need to add another line in the script to add extensions (for source file)
 		
 String reserved in architecture files:
+
 *		"className"
 *		"DATE"
 *		"CLASS_NAME"
