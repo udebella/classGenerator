@@ -19,7 +19,7 @@ Finally, you can create an alias in the bashrc file:
 2- Use
 ------
 
-classGenerator <className> <language>
+#classGenerator <className> <language>
 
 It will generate the header and source corresponding
 	
