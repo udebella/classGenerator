@@ -1,0 +1,24 @@
+/**
+ * \file className.cpp
+ * \brief Contains the definition of class className's methods
+ * \author Ubu
+ * \version 0.1
+ * \date DATE
+ */
+ 
+/* ------------------------------------------ INCLUDE ------------------------------------------ */
+/* Standard Libraries */
+
+
+/* Personnal Headers */
+#include "className.h"
+
+/* ----------------------------------------- FONCTIONS ----------------------------------------- */
+/**
+ * \details Constructor of the class className
+ * Initialize values of the attributes
+ * \param
+ */
+className::className()
+{
+}

@@ -1,0 +1,35 @@
+/**
+ * \file className.h
+ * \brief Contains the definition of the class className
+ * \author Ubu
+ * \version 0.1
+ * \date DATE
+ */
+ 
+#ifndef CLASS_NAME_H
+#define CLASS_NAME_H
+
+/* ------------------------------------------ INCLUDE ------------------------------------------ */
+/* Standard Libraries */
+
+
+/* Personnal Headers */
+
+
+/* ------------------------------------------- CLASS ------------------------------------------- */
+/**
+ * \class className
+ * \brief
+ */
+class className
+{
+	private:
+	
+	protected:
+    	  
+	public:
+		// \brief Constructor of the class
+		className();
+};
+
+#endif
